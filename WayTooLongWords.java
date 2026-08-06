@@ -5,11 +5,11 @@ public class WayTooLongWords {
         int testcases = sc.nextInt();
         for(int i = 0; i < testcases; i++){
             String s = sc.next();
-            if(s.length() <= testcases){
+            if(s.length() <= 10){
                 System.out.println(s);
                 continue;
             }
-            System.out.println(s.charAt(0) +""+ (s.length()-2) +""+ s.charAt(testcases-1));
+            System.out.println(s.charAt(0) +""+ (s.length()-2) +""+ s.charAt(s.length()-1));
         }
         sc.close();
     }
