@@ -6,6 +6,7 @@ public class BitLand {
         int testcase = sc.nextInt();
         if (testcase == 0){
             System.out.println(0);
+            sc.close();
             return;
         }
         int x = 0;
